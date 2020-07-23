@@ -65,7 +65,7 @@ function reset()
 		}
 	}
 	messageDisplay.textContent="";
-	h1.style.backgroundColor="steelblue";
+	h1.style.backgroundColor="rgb(109,36,15)";
 	newColors.textContent="New Colors";	
 }
 
@@ -100,3 +100,4 @@ function randomColors()
 	var b=Math.floor(Math.random()*256);
 	return "rgb("+r+", "+g+", "+b+")";
 }
+
