@@ -1,0 +1,105 @@
+body {
+	background-color: #232323;
+	margin:0;
+    font-family:"Montserrat" , "Avenir";
+}
+
+.square {
+    border-radius: 25%;
+    background: #fff;
+    display: flex;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;	
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.selected {
+	color: white;
+	background: rgb(236, 6, 217);
+}
+
+.container1 {
+	max-width:600px;
+    margin:20px auto;
+    display: flex;
+}
+
+.container2 {
+	max-width:600px;
+    margin:20px auto;
+    display: flex;
+}
+
+.square:hover {
+    border: 5px solid red;
+}
+
+.image-head h1 {
+	color: black;
+	text-align:center;
+	margin:0;
+	background: rgb(109,36,15);
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.1;
+    padding: 20px 0;
+    background-image: url(P3.jpg);
+}
+
+#color {
+	font-size: 200%
+}
+
+#reset {
+	height:30px;
+	color:black;
+	background:white;
+	text-align: center;
+}
+
+button {
+	text-transform: uppercase;
+	border:none;
+	background: none;
+	height:100%;
+	font-weight: 700;
+	color:rgb(236, 6, 217);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+#message {
+	display :inline-block;
+    width:20%;
+    color: brown;
+}
+
+#message:hover {
+    color:white;
+    background:rgb(236, 6, 217);
+    border-radius: 30%;
+    transition-delay: 55ms;
+}
+
+button:hover {
+	color:white;
+    background:rgb(236, 6, 217);
+    border-radius: 30%;
+    transition-delay: 55ms;
+}
+
+.image-wrapper {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 100%;
+}
+
